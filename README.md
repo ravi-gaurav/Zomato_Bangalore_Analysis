@@ -2,10 +2,8 @@
 
 ## DATASET
 
-1.  Download the Zomato-Bangalore Dataset from the below mentioned link :-
-    https://www.kaggle.com/himanshupoddar/zomato-bangalore-restaurants
-2.  The above mentioned dataset is also present in this repository and can be downloaded from here.
-3.  The dataset needs preprocessing before you can start with analysis.
+1.  Download the Zomato-Bangalore Dataset from the below mentioned link :- https://www.kaggle.com/himanshupoddar/zomato-bangalore-restaurants
+2.  The dataset needs preprocessing before you can start with analysis.
 
 
 
