@@ -17,8 +17,7 @@ object Preprocessing {
     .option("multiline", "true")
     .option("escape","\"")
     .format("csv")
-    //.load("D:/BigData Training/Capstone Project/zomato.csv")
-    .load("s3://ravi-zomato-capstone/zomato-dataset/zomato.csv")
+    .load("D:/BigData Training/Capstone Project/zomato.csv")
     
     
 //  Splitting the columns on the basis of some delimiter and storing it in a new column

@@ -9,7 +9,7 @@ object CapstoneMain {
   
   def main(args: Array[String]): Unit = {
     
-//    System.setProperty("hadoop.home.dir", "C:/Users/ravi.gaurav/Downloads/winutils-master/hadoop-2.7.1");
+//    System.setProperty("hadoop.home.dir", "***********/winutils-master/hadoop-2.7.1");
     
     val (dataframe_unused_columns, dataframe_used_columns) = Preprocessing.preprocess()
     dataframe_used_columns.persist()
@@ -17,15 +17,10 @@ object CapstoneMain {
     
 //  Saving the two seperated DataFrames returned after preprocessing
     
-//    SaveAsParquet
-//    .savingAsParquetFile(dataframe_unused_columns, dataframe_used_columns, 
-//        "D:/BigData Training/Capstone Project/Preprocessing/UsedColumns", 
-//        "D:/BigData Training/Capstone Project/Preprocessing/UnusedColumns")
-    
     SaveAsParquet
     .savingAsParquetFile(dataframe_unused_columns, dataframe_used_columns, 
-        "s3://ravi-zomato-capstone/output/preprocessed-data/unusedColumns", 
-        "s3://ravi-zomato-capstone/output/preprocessed-data/usedColumns")  
+        "D:/BigData Training/Capstone Project/Preprocessing/UsedColumns", 
+        "D:/BigData Training/Capstone Project/Preprocessing/UnusedColumns")  
     
 
 //  Problem Statements

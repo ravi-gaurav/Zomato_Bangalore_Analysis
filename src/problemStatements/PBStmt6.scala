@@ -26,8 +26,8 @@ object PBStmt6 {
         {resDF1 = workingRestaurants}
       
       
-      //SaveAsParquet.savingAsParquetFile(resDF1, "D:/BigData Training/Capstone Project/Problem06", "location_new")
-      SaveAsParquet.savingAsParquetFile(resDF1, "s3://ravi-zomato-capstone/output/problem06", "location_new")
+      SaveAsParquet.savingAsParquetFile(resDF1, "D:/BigData Training/Capstone Project/Problem06", "location_new")
+      //SaveAsParquet.savingAsParquetFile(resDF1, "s3://********/problem06", "location_new")
 
     
   }

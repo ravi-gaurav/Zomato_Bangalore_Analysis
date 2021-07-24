@@ -24,8 +24,7 @@ object PBStmt1 {
     else
       {resDF1 = requiredDF}
     
-    //SaveAsParquet.savingAsParquetFile(resDF1, "D:/BigData Training/Capstone Project/Problem01")
-    SaveAsParquet.savingAsParquetFile(resDF1, "s3://ravi-zomato-capstone/output/problem01")
+    SaveAsParquet.savingAsParquetFile(resDF1, "D:/BigData Training/Capstone Project/Problem01")
     
     resDF1
     
